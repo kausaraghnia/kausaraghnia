@@ -23,8 +23,8 @@ KNN atau K-Nearest Neighbors digunakan untuk memprediksi berdasarkan data yang d
 Didunia ini setiap waktu pasti ada orang yang sakit dan juga ada yang berobat namun tak kunjung sembuh karena diagnosa dan obat yang dberikan salah. Dalam hal ini AI berperan membantu manusia sebagai pemberi prediksi dan solusi sehingga mengurangi terjadinya salah diagnosa terhadap pasien. Metode KNN digunakan dalam perancangan AI ini yang mana digunakan untuk memprediksi penyakit yang di derita pasien dan memberikan solusi pola hidup yang tepat. Penggunaan Alogaritma KNN ini tepat karena pasti akan banyak data pasien yang bisa digunakan sebagai data pemabanding untuk menghasilkan prediksi yang akurat. Akan tetapi juga data pembanding harus diperhatikan kualitasnya karena akan berdampak pada keakuratan prediksi dan solusi pencegahan yang mana itu merupakan langkah yang penting dalam pemeliharaan kesehatan pribadi manusia. Hasil akhinrnya Ai ini dapt membantu dokter dan pasien dan bisa memberikan kesejahteraan umum yang diinginkan.
 
 ## Reference
-http://scholar.unand.ac.id/8060/2/BAB%20I.pdf
-https://eprints.ums.ac.id/43093/6/BAB%20I.pdf
-http://repository.syekhnurjati.ac.id/5166/2/BAB%20I%20hesti.pdf
-https://www.ibm.com/topics/knn 
-https://www.w3schools.com/python/python_ml_knn.asp
+1. http://scholar.unand.ac.id/8060/2/BAB%20I.pdf
+2. https://eprints.ums.ac.id/43093/6/BAB%20I.pdf
+3. http://repository.syekhnurjati.ac.id/5166/2/BAB%20I%20hesti.pdf
+4. https://www.ibm.com/topics/knn 
+5. https://www.w3schools.com/python/python_ml_knn.asp
