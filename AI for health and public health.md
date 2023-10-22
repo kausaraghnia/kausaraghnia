@@ -26,5 +26,5 @@ Didunia ini setiap waktu pasti ada orang yang sakit dan juga ada yang berobat na
 1. http://scholar.unand.ac.id/8060/2/BAB%20I.pdf
 2. https://eprints.ums.ac.id/43093/6/BAB%20I.pdf
 3. http://repository.syekhnurjati.ac.id/5166/2/BAB%20I%20hesti.pdf
-4. https://www.ibm.com/topics/knn 
+4. https://www.ibm.com/topics/knn
 5. https://www.w3schools.com/python/python_ml_knn.asp
