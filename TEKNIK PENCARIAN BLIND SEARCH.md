@@ -230,7 +230,21 @@ Yang pertama kita ubah pada bagian static void nya menjadi seperti berikut
 
 kode diatas memberikan output (0,d=0) (1,d=1) (2,d=1) (3,d=2) (4,d=2) (5,d=2) (6,d=2) 
 
-node 5 (n5) terhubung dengan node 2 (n2) yang terhubung dengan node 0 (n0). jarak n0 ke n2 adalah 1 dan jarak n2 ke n5 adalah 1 jadi jarak n0 ke n5 adalah 2.
+Berikut langkah langkah BFS menemukan node 5 :
+1. masukkan node 0 ke dalam antrian
+2. periksa apakah node 5 ada di antrian. Tidak Ada.
+3. Keluarkan node 0 dari antrian.
+4. Periksa semua node yang bertetangga dengan node 0. Node 1 dan 2 tidak dikunjungi.
+5. Masukkan node 2 dan 3 ke dalam antrian.
+6. Periksa apakah node 5 ada di antrian. Tidak ada.
+7. Keluarkan node 1 dari antrian.
+8. Periksa semua node yang bertetangga dengan node 1. Node 3 dan 4 tidak dikunjungi.
+9. Masukkan node 4 dan 5 ke dalam antrian.
+10. Periksa apakah node 5 ada di antrian. Tidak ada.
+11. Kembali ke node yang bertetanggaan dengan node 0 yaitu node 1 dan 2. node 1 sudah diperiksa.
+12. Periksa semua node yang bertetangga dengan node 2. Node 5 dan 6 tidak dikunjungi.
+13. Masukkan node 5 dan 6 ke dalam antrian.
+14. Periksa apakah node 5 ada di antrian. Ya ada, node 5 ditemukan
 
 # 3. Cara alogaritma BFS dapat menemukan node 9
 Yang pertama kita ubah static void nya menjadi seperti berikut
@@ -300,7 +314,20 @@ Yang pertama kita ubah static void nya menjadi seperti berikut
 
 kode diatas memberikan output (1,d=0) (2,d=1) (3,d=1) (4,d=1) (5,d=2) (6,d=2) (7,d=2) (8,d=2) (9,d=3) (10,d=3) (11,d=3) (12,d=3)
 
-node 9 (n9) terhubung dengan node 5 (n5) yang terhubung dengan node 2 (n2) yang terhubung dengan node 1 (n1). jarak dari node 1 ke node 2 adalah 1, jarak dari node 2 ke node 5 adalah 1 dan jarak node 5 ke node 9 adalah 1. Jadi jarak dari node 1 ke node 9 adalah 4.
+1. Masukkan node 1 ke dalam antrian.
+2. Periksa apakah node 9 ada di antrian. Tidak ada.
+3. Keluarkan node 1 dari antrian.
+4. Periksa semua node yang bertetangga dengan node 1. Node 2, 3 dan 4 tidak dikunjungi.
+5. Masukkan node 2, 3 dan 4 ke dalam antrian.
+6. Periksa apakah node 9 ada di antrian. Tidak ada.
+7. Keluarkan node 2 dari antrian.
+8. Periksa semua node yang bertetangga dengan node 2. Node 5 dan 6 tidak dikunjungi.
+9. Masukkan node 5 dan 6 ke dalam antrian.
+10. Periksa apakah node 9 ada di antrian. Tidak ada.
+11. Keluarkan node 5 dari antrian.
+12. Periksa semua node yang bertetangga dengan node 5. Node 9 dan 10 tidak dikunjungi.
+13. Masukkan node 9 dan 10 kedalam antrian.
+14. Periksa apakah node 9 ada di antrian. Ya ada, node 9 ditemukan
 
 # 4. Cara alogaritma BFS menemukan Node C
 Yang pertama ubah static void nya menjadi seperti dibawah
@@ -379,5 +406,21 @@ Yang pertama ubah static void nya menjadi seperti dibawah
 
 kode diatas memberikan output (F,d=0) (B,d=1) (G,d=1) (A,d=2) (D,d=2) (I,d=2) (C,d=3) (E,d=3) (H,d=3) 
 
+1. Masukkan node F ke dalam antrian.
+2. Periksa apakah node C ada di antrian. Tidak ada.
+3. Keluarkan node F dari antrian.
+4. Periksa semua node yang bertetangga dengan node F. Node B dan G tidak dikunjungi.
+5. Masukkan node B dan G ke dalam antrian.
+6. Periksa apakah node C ada di antrian. Tidak ada.
+7. Keluarkan node B dari antrian.
+8. Periksa semua node yang bertetangga dengan node B. Node A dan D tidak dikunjungi.
+9. Masukkan node A dan D ke dalam antrian.
+10. Periksa apakah node C ada di antrian. Tidak ada.
+11. Keluarkan node A dari antrian.
+12. Periksa semua node yang bertetangga dengan node A. tidak ada
+13. Keluarkan node D dari antrian.
+14. Periksa semua node yang bertetangga dengan node D. Node C dan E tidak dikunjungi.
+15. Masukkan node C dan E kedalam antrian.
+16. Periksa apakah node C ada di antrian. Ya ada, node C ditemukan
 
   
