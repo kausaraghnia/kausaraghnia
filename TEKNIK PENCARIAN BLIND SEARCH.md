@@ -229,6 +229,7 @@ Yang pertama kita ubah pada bagian static void nya menjadi seperti berikut
     }
 
 kode diatas memberikan output (0,d=0) (1,d=1) (2,d=1) (3,d=2) (4,d=2) (5,d=2) (6,d=2) 
+
 node 5 (n5) terhubung dengan node 2 (n2) yang terhubung dengan node 0 (n0). jarak n0 ke n2 adalah 1 dan jarak n2 ke n5 adalah 1 jadi jarak n0 ke n5 adalah 2.
 
 # 3. Cara alogaritma BFS dapat menemukan node 9
@@ -298,9 +299,10 @@ Yang pertama kita ubah static void nya menjadi seperti berikut
     }
 
 kode diatas memberikan output (1,d=0) (2,d=1) (3,d=1) (4,d=1) (5,d=2) (6,d=2) (7,d=2) (8,d=2) (9,d=3) (10,d=3) (11,d=3) (12,d=3)
+
 node 9 (n9) terhubung dengan node 5 (n5) yang terhubung dengan node 2 (n2) yang terhubung dengan node 1 (n1). jarak dari node 1 ke node 2 adalah 1, jarak dari node 2 ke node 5 adalah 1 dan jarak node 5 ke node 9 adalah 1. Jadi jarak dari node 1 ke node 9 adalah 4.
 
-# 4. Cara alogaritma BFS menemukan Node
+# 4. Cara alogaritma BFS menemukan Node C
 Yang pertama ubah static void nya menjadi seperti dibawah
 
     public static void main(String[] args)
