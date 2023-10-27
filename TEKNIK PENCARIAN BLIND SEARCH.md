@@ -239,7 +239,7 @@ Berikut langkah langkah BFS menemukan node 5 :
 6. Periksa apakah node 5 ada di antrian. Tidak ada.
 7. Keluarkan node 1 dari antrian.
 8. Periksa semua node yang bertetangga dengan node 1. Node 3 dan 4 tidak dikunjungi.
-9. Masukkan node 4 dan 5 ke dalam antrian.
+9. Masukkan node 3 dan 4 ke dalam antrian.
 10. Periksa apakah node 5 ada di antrian. Tidak ada.
 11. Kembali ke node yang bertetanggaan dengan node 0 yaitu node 1 dan 2. node 1 sudah diperiksa.
 12. Periksa semua node yang bertetangga dengan node 2. Node 5 dan 6 tidak dikunjungi.
