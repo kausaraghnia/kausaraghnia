@@ -15,7 +15,7 @@ Ada beberapa algoritma yang dikategorikan ke dalam teknik pencarian blind search
 
 Pada praktikum kali ini kita menggunakan alogaritma Breadth First Search (BFS) adalah algoritma yang menjelajah node root pertama sekali, kemudian menjelajah semua successor dari node root, kemudian menjelajah semua successor dari successor, dan seterusnya sampai successor yang terakhir. Fringe merupakan struktur data queue First In First Out (FIFO).
 
-Kode berikut merupakan urutan angka dari 0, 1, 2, .N. Initial state-nya adalah 0 dan goal state-nya adalah angka yang ditetapkan oleh user. Setiap langkah dibangkitkan secara acak atau 1. Method addEdge(Node n1, Node n2) adalah method untuk menghubungkan dua buah edge sedangkan method bfs(Node s) adalah method untuk menentukan teknik pencarian menggunakan algoritma Breadth First Search.
+Kode berikut merupakan urutan angka dari 0, 1, 2, N. Initial state-nya adalah 0 dan goal state-nya adalah angka yang ditetapkan oleh user. Setiap langkah dibangkitkan secara acak atau 1. Method addEdge(Node n1, Node n2) adalah method untuk menghubungkan dua buah edge sedangkan method bfs(Node s) adalah method untuk menentukan teknik pencarian menggunakan algoritma Breadth First Search.
 # Code
 
     import java.util.ArrayDeque;
