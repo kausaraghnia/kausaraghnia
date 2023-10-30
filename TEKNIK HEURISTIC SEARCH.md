@@ -239,7 +239,7 @@ Heuristi hanyalah sebuah cara menerka langkah berikutnya yang harus diambil dala
 5. Ubahlah initial dan goal state dari program dan class-class di atas sehingga bentuk initial dan  goal statenya Gambar 5.11. Kemudian tentukan langkah-langkah mana saja sehingga  puzzlenya mencapai goal state.
 
 ## Jawaban
-1. Dalam kode yang diberikan, terdapat tiga kelas utama: `Node`, `EightPuzzleSpace`, dan `EightPuzzleSearch`. Mari kita bahas peran masing-masing kelas:
+## 1. Dalam kode yang diberikan, terdapat tiga kelas utama: `Node`, `EightPuzzleSpace`, dan `EightPuzzleSearch`. Mari kita bahas peran masing-masing kelas:
 
 > `Node`:
    - `Node` adalah kelas yang merepresentasikan satu keadaan dalam permainan teka-teki delapan kotak (Eight Puzzle). Setiap objek `Node` memiliki atribut `state` yang merupakan array integer dengan panjang 9, yang mewakili konfigurasi kotak-kotak pada papan teka-teki.
@@ -265,19 +265,28 @@ Heuristi hanyalah sebuah cara menerka langkah berikutnya yang harus diambil dala
    - Metode `run` adalah metode utama yang menjalankan algoritma pencarian A* dan mencari solusi dalam permainan teka-teki delapan kotak.
 Dengan demikian, ketiga kelas ini bekerja sama untuk menjalankan pencarian solusi dalam permainan teka-teki delapan kotak menggunakan algoritma A*.
 
-2. Langkah-langkah sehingga puzzlenya mencapai goal state.
+## 2. Langkah-langkah sehingga puzzlenya mencapai goal state.
 -Inisialisasi node awal (root) dengan keadaan awal, node tujuan dengan keadaan tujuan, dan dua vektor open dan closed.
+
 -Meletakkan node awal ke dalam vektor open.
+
 -Selama vektor open tidak kosong, Maka:
+
 a. Memilih node dengan biaya terendah dari vektor open. Ini dilakukan dengan menghitung biaya kombinasi f(n) = g(n) + h(n), di mana g(n) adalah biaya yang telah ditempuh dari node awal ke node saat ini, dan h(n) adalah estimasi biaya sisa (heuristik) dari node saat ini ke node tujuan.
+
 b. Menambahkan node yang dipilih ke dalam vektor closed untuk menandai bahwa node ini telah diperiksa.
+
 c. Jika node yang dipilih adalah node tujuan, maka solusi telah ditemukan. menghentikan pencarian dan mencetak jalur dari node awal ke node tujuan.
+
 d. Jika node yang dipilih bukan node tujuan, menghasilkan node-node anak (successors) dari node saat ini dengan melakukan langkah-langkah yang mungkin (geser kotak kosong ke atas, bawah, kiri, atau kanan).
+
 e. Untuk setiap node anak, menghitung f(n) dan periksa apakah node tersebut sudah ada di dalam vektor open atau closed. Jika belum, tambahkan node anak ke dalam vektor open dan tentukan biaya f(n) serta node induknya.
+
 Jika vektor open kosong dan solusi tidak ditemukan, maka permainan 8-Puzzle tidak memiliki solusi.
+
 Jika solusi ditemukan, ouput langkah-langkah dari node awal ke node tujuan yang membentuk solusi.
 
-3. Pencarian solusi ini menggunakan algoritma A* dengan dua jenis heuristic, yaitu h1 (misplaced tiles) dan h2 (Manhattan distance). Langkah-langkah untuk mencapai goal state dari initial state pada teka-teki 8-Puzzle bisa dianalisis sebagai berikut:
+## 3. Pencarian solusi ini menggunakan algoritma A* dengan dua jenis heuristic, yaitu h1 (misplaced tiles) dan h2 (Manhattan distance). Langkah-langkah untuk mencapai goal state dari initial state pada teka-teki 8-Puzzle bisa dianalisis sebagai berikut:
 > Langkah pertama adalah menginisialisasi initial state dan goal state:
    - Initial state: `{1, 5, 3, 4, 6, 8, 2, 7, 0}`
    - Goal state: `{7, 6, 5, 8, 0, 4, 1, 2, 3}`
@@ -295,7 +304,7 @@ Jika solusi ditemukan, ouput langkah-langkah dari node awal ke node tujuan yang 
 Perlu diingat bahwa dalam kode tersebut, dapat memilih heuristic yang digunakan untuk pencarian dengan mengganti `hCost(node)` ke dalam metode `EightPuzzleSearch`. Jika Anda ingin menggunakan h2 (Manhattan distance) sebagai heuristic, gantilah `return h1Cost(node)` menjadi `return h2Cost(node)`.
 
 
-4. Langkah langkah kode sampai menemukan hasil
+## 4. Langkah langkah kode sampai menemukan hasil
 > Langkah pertama adalah menginisialisasi initial state dan goal state:
    - Initial state: `{ 1 2 3 4 5 6 7 8 0}`
    - Goal state: `{ 1 2 3 4 0 5 6 7 8 }`
@@ -326,7 +335,7 @@ Perlu diingat bahwa dalam kode tersebut, dapat memilih heuristic yang digunakan 
  1 2 3 4 5 0 6 7 8 
  1 2 3 4 0 5 6 7 8
 
-5. Langkah langkah untuk menemukan hasil sesuai gambar 5.11
+## 5. Langkah langkah untuk menemukan hasil sesuai gambar 5.11
 yang pertama ubah kode seperti dibawah
 
 
