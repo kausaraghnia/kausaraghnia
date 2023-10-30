@@ -233,13 +233,9 @@ Heuristi hanyalah sebuah cara menerka langkah berikutnya yang harus diambil dala
 ## Tugas 
 
 1. Pelajari class EightPuzzleSearch, EightPuzzleSpace, dan Node.
-
 2. Ubahlah initial dan goal state dari program di atas sehingga bentuk initial dan goal statenya  Gambar 8. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal  state. Analisa dan bedakan dengan solusi pada point 1.
-
 3. Ubahlah initial dan goal state dari program di atas sehingga bentuk initial dan goal statenya Gambar 5.9. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai  goal state. Analisa dan bedakan dengan solusi pada point 1 dan 2.
-
 4. Ubahlah initial dan goal state dari program di atas sehingga bentuk initial dan goal statenya  Gambar 5.10. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai  goal state. Analisa dan bedakan dengan solusi pada point 1, 2, dan 3.
-
 5. Ubahlah initial dan goal state dari program dan class-class di atas sehingga bentuk initial dan  goal statenya Gambar 5.11. Kemudian tentukan langkah-langkah mana saja sehingga  puzzlenya mencapai goal state.
 
 
