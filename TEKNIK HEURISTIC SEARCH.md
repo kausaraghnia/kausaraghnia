@@ -1,53 +1,17 @@
-## Teknik Heuristic Search
+# Teknik Heuristic Search
 
-# Tujuan Praktikum
+## Tujuan Praktikum
 Memperlihatkan kepada mahasiswa bagaimana menyelesaikan permasalahan pada game 8-puzzle  dengan menggunakan algoritma heuristic search. Mahasiswa diharapkan mampu  mengimplementasikan algoritma heuristic dengan menggunakan Java.
 
-# Dasar teori
+## Dasar teori
 
-Teknik Pencarian Heuristic Search
+Teknik Pencarian Heuristic Search. 
+Teknik blind search tidak selalu memecahkan masalah dengan baik. Waktu yang dibutuhkan  ketika menemukan solusi atau memecahkan masalah terlalu lama dan juga memori yang dibutuhkan untuk menampung urutan-urutan solusi sangat besar akan menjadi kelemahan bagi algoritma ini. Kelemahan tersebut dapat diatasi ketika informasi-informasi tambahan yang diperoleh dari setiap langkah pencarian diidentifikasikan dan dijadikan sebagai penentu langkah berikutnya. Salah satu teknik untuk meminimalisasikan kelemahan dari blind search adalah teknik  heuristic. Heuristic merupakan suatu proses dimana pencarian solusi akan ditemukan dengan baik namun bisa juga kemungkinan tidak ada solusi. Teknik ini mmebutuhkan sebuah nilai untuk menentukan pencarian berikutnya. Nilai heuristic dapat ditentukan melalui fungsi heuristic. Fungsi heuristic merupakan fungsi yang melakukan pemetaan dari diskripsi keadaan ke pengukur kebutuhan. Umumnya fungsi ini direpresentasikan ke dalam bentuk angka. Dalam ilmu Kecerdasan Buatan, heuristic dihadapkan dalam 2 keadaan dasar.
+- Persoalan/problema yang mungkin memiliki solusi eksak, namun biaya perhitungan untuk menemukan solusi tersebut sangat tinggi dalam kebanyakan persoalan (seperti catur), ruang keadaan bertambah secara luar biasa seiring dengan jumlah.
+- Persoalan yang mungkin tidak memiliki solusi eksak karena ambiquitas (ketidakpastian) mendasar dalam pernyataan persoalan atau data yang tersedia diagnosa medis merupakan salahmsatu contohnya.
+Heuristi hanyalah sebuah cara menerka langkah berikutnya yang harus diambil dalam memecahkan suatu persoalan berdasarkan informasi yang ada/tersedia.
 
-Teknik blind search tidak selalu memecahkan masalah dengan baik. Waktu yang dibutuhkan 
-
-ketika menemukan solusi atau memecahkan masalah terlalu lama dan juga memori yang dibutuhkan
-
-untuk menampung urutan-urutan solusi sangat besar akan menjadi kelemahan bagi algoritma ini. 
-
-Kelemahan tersebut dapat diatasi ketika informasi-informasi tambahan yang diperoleh dari setiap 
-
-langkah pencarian diidentifikasikan dan dijadikan sebagai penentu langkah berikutnya.
-
-Salah satu teknik untuk meminimalisasikan kelemahan dari blind search adalah teknik 
-
-heuristic. Heuristic merupakan suatu proses dimana pencarian solusi akan ditemukan dengan baik 
-
-namun bisa juga kemungkinan tidak ada solusi. Teknik ini mmebutuhkan sebuah nilai untuk 
-
-menentukan pencarian berikutnya. Nilai heuristic dapat ditentukan melalui fungsi heuristic. 
-
-Fungsi heuristic merupakan fungsi yang melakukan pemetaan dari diskripsi keadaan ke 
-
-pengukur kebutuhan. Umumnya fungsi ini direpresentasikan ke dalam bentuk angka. Dalam ilmu 
-
-Kecerdasan Buatan, heuristic dihadapkan dalam 2 keadaan dasar.
-
-- Persoalan/problema yang mungkin memiliki solusi eksak, namun biaya perhitungan untuk
-
-menemukan solusi tersebut sangat tinggi dalam kebanyakan persoalan (seperti catur), ruang
-
-keadaan bertambah secara luar biasa seiring dengan jumlah.
-
-- Persoalan yang mungkin tidak memiliki solusi eksak karena ambiquitas (ketidakpastian)
-
-mendasar dalam pernyataan persoalan atau data yang tersedia diagnosa medis merupakan salah
-
-satu contohnya.
-
-Heuristi hanyalah sebuah cara menerka langkah berikutnya yang harus diambil dalam memecahkan
-
-suatu persoalan berdasarkan informasi yang ada/tersedia.
-
-# Code
+## Code
 
     import java.util.Vector;
 
@@ -266,7 +230,7 @@ suatu persoalan berdasarkan informasi yang ada/tersedia.
 
 
 
-# Tugas 
+## Tugas 
 
 1. Pelajari class EightPuzzleSearch, EightPuzzleSpace, dan Node.
 
