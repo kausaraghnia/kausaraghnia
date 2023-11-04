@@ -5,6 +5,7 @@ Meningkatkan pemahaman mahasiswa terhadap code permainan tic tac toe. Selain itu
 ## Dasar Teori
 Penyelesaian masalah permainan tic tac toe dapat menggunakan algoritma heuristic untuk mencapai solusi yang optimal. Pada modul ini memperlihatkan bagaimana membuat sebuah permainan tic tac toe. Initial state dari permainan ini adalah puzzle ukuran 8 yang tidak berisikan apa-apa. Ketika pemain pertama menekan salah satu ubin, maka ubin tersebut akan diberikan tanda silang. Pemain kedua harus menghalangi pemain pertama untuk membuat tanda silang berjajaran baik secara vertikal, horizontal, atau diagonal. Permainan ini akan berakhir (goal state) ketika salah seorang pemain sudah menderetkan tanda meraka masing-masing baik secara vertikal, horizontal, atau diagonal.
 Solusi dari permasalahan ini dapat dilakukan dengan membuat topologi Tree, kemudian setiap langkah dari pemain pertama atau kedua akan menjadikan initial state selanjutnya, kemudian langkah tersebut akan dijadikan sebagai initial state yang baru sampai menemukan goal statenya.Ilustrasi penyelesaian masalah permainan tic tac toe ini dapat dilihat melalui Gambar.
+
 ![image](https://github.com/kausaraghnia/kausaraghnia/assets/148691014/da9b2e86-fcd6-4ea2-bd07-02ade07eb673)
 
 ## Implementasi Permainan TIC TAC TOE
